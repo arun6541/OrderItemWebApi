@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: orderitemwebapi
-        image: tharunacr.azurecr.io/orderitemwebapiimage:latest
+        image: arun1acr.azurecr.io/orderitemwebapiimage:latest
         ports:
         - containerPort: 80
       imagePullSecrets:
